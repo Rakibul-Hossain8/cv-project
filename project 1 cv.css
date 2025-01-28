@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+    font-family: "Roboto", serif;
+    }
+
+.container{
+    max-width: 1000px;
+    background-color: #6c9cdb;
+    margin: 0 auto;
+    padding: 20px;
+    }
+.profile-image{
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    float: left;
+    }
+.header-bio{
+        float: left;
+        padding: 30px;
+    }
+    h1,h2,h3,h4,h5,h6,p{
+        color: #1e2383;
+    }
+.header-contact{
+        float: right;
+        padding: 30px;
+        }
+.header-contact a{
+
+            text-decoration: none;
+            color: #1e2383;
+        }
+.header-contact a:hover{
+    text-decoration: underline;
+    color: rgb(227, 138, 138);
+}
+.div-clear{  /* DIV clear is necessary| used many div in upper side| if dont clear div then the horizontal line wont appear*/
+    clear: both;
+}
+
+hr{
+    border: solid #1e2383 2px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*--------------------
+Main section starts
+--------------------*/
+
+ 
+.left-div{
+    float: left;
+    width: 30%;
+ }
+.right-div{
+width: 70%;
+float: left;
+}
+li{
+    color: #1e2383;
+    list-style-type: none;
+}
+.common-hr{
+    border: #1e2383 solid 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto; /* 20 px for up down, auto for left right*/
+}
+
+/*--------------------
+Education section starts
+--------------------*/
+.edu-template-left{
+        float: left;
+        width: 45%;
+
+}
+.edu-template-right{
+    float: right;
+    width: 45%;
+}
+
+/*--------------------
+Education section ends
+--------------------*/
+
+
+/*--------------------
+footer section starts
+--------------------*/
+.bottom-part{
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.bottom-part a{
+    color: #eee;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.bottom-part p{
+    color: #eee;
+    text-decoration: none;
+    margin-top:  20px;
+}
+
+.bottom-part a:hover{
+    color: #6c9cdb;
+    text-decoration: underline;
+}
+/*--------------------
+footer section ends
+--------------------*/
